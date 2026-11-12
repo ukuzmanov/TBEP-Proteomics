@@ -95,6 +95,11 @@ section{padding:84px 0}
 .contact-card dt{font:500 .78rem var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding-top:4px}
 .contact-card dd{margin:0}
 /* publications */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:8px 0 0;width:100%;max-width:860px;border-top:1px solid rgba(255,255,255,.25)}
+.stats div{padding:18px 18px 0 0}
+.stats dt{font:700 2.6rem/1 var(--head);color:#fff}
+.stats dd{margin:6px 0 0;font-size:.92rem;line-height:1.35;color:#dedede}
+@media (max-width:760px){.stats{grid-template-columns:1fr 1fr}.stats dt{font-size:2.1rem}}
 .pub-filter{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:36px}
 .pub-filter span{font:500 .8rem var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-right:6px}
 .chip{font:500 .92rem var(--body);padding:7px 14px;border:1px solid var(--line);background:#fff;color:var(--char);border-radius:999px;cursor:pointer}
